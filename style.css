@@ -179,4 +179,12 @@ footer {
   #contact .contact-flex-right {
     width: 100% !important;
   }
+
+  #contact h5 {
+    font-size: 16px;
+  }
+
+  #contact .contact-flex-left p {
+    font-size: 14px;
+  }
 }
