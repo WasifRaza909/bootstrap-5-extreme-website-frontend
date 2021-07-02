@@ -3,7 +3,11 @@ body {
 }
 
 .nav-link {
-  color: #ffffff;
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #0dcaf0 !important;
 }
 
 .navbar {
@@ -79,11 +83,6 @@ body {
   margin: 0 auto;
 }
 
-#portfolio img {
-  width: 100%;
-  height: 400px;
-}
-
 #readyToComing h2 {
   margin-right: 2rem;
 }
@@ -128,4 +127,56 @@ body {
 
 footer {
   background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+@media (max-width: 768px) {
+  #home p {
+    width: 100% !important;
+    font-size: 16px;
+  }
+
+  #getStarted h2 {
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  #readyToComing h2 {
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #home h1 {
+    width: 100% !important;
+    /* font-size: 34px; */
+  }
+
+  #about p {
+    width: 100% !important;
+  }
+
+  footer p {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  #whoWeAre .d-flex-left {
+    width: 100% !important;
+  }
+
+  #whoWeAre button {
+    display: block;
+    margin: 0 auto;
+  }
+
+  #contact .contact-flex-left {
+    width: 100% !important;
+    margin-bottom: 2rem;
+  }
+
+  #contact .contact-flex-right {
+    width: 100% !important;
+  }
 }
