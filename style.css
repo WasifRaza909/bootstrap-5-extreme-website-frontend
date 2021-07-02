@@ -2,10 +2,6 @@ body {
   overflow-x: hidden;
 }
 
-.nav-link {
-  color: #ffffff !important;
-}
-
 .nav-link:hover {
   color: #0dcaf0 !important;
 }
@@ -186,5 +182,12 @@ footer {
 
   #contact .contact-flex-left p {
     font-size: 14px;
+  }
+
+  .accordion-item-3 {
+    border-radius: 0 !important;
+  }
+  .accordion-item-4 {
+    border-radius: 0 !important;
   }
 }
